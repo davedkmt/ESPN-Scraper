@@ -1,0 +1,26 @@
+{
+  "name": "espn-scraper",
+  "version": "1.0.0",
+  "description": "The app scrapes stories from ESPN and displays them for the user. Each scraped article is saved to the application database.",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davedkmt/ESPN-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davedkmt/ESPN-Scraper/issues"
+  },
+  "homepage": "https://github.com/davedkmt/ESPN-Scraper#readme"
+}
